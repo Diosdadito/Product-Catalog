@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{40721F27-797A-4ED8-845D-55135EC0474B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{48FDA8F5-C207-45DB-8E58-9235CC7F6294}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{20C6D805-98A9-446B-8852-F474C1D18A04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{48BE078C-C0F8-4E95-AC9E-39D4DCC870BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsCatalog.WebAPI", "src\ProductsCatalog.WebAPI\ProductsCatalog.WebAPI.csproj", "{261346C8-FD96-4227-A0A0-093EB979F43E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{261346C8-FD96-4227-A0A0-093EB979F43E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261346C8-FD96-4227-A0A0-093EB979F43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261346C8-FD96-4227-A0A0-093EB979F43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261346C8-FD96-4227-A0A0-093EB979F43E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{261346C8-FD96-4227-A0A0-093EB979F43E} = {40721F27-797A-4ED8-845D-55135EC0474B}
+	EndGlobalSection
+EndGlobal
